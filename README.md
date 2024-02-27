@@ -22,5 +22,9 @@ There are three major issues with Factory and Abstract Factory design patterns w
 2. Some parameters might be optional but in Factory pattern, we are forced to send all the parameters and optional parameters need to send as NULL.
 3. If the object is heavy and its creation is complex, then all that complexity will be part of Factory classes that is confusing.
 
+![Builder drawio](https://github.com/patil31051998/design-patterns/assets/145420889/6eeed031-1786-4c84-9863-ea6d07ed16d5)
+
 ### Prototype
 Prototype design pattern is used when the Object creation is a costly affair and requires a lot of time and resources and you have a similar object already existing. Prototype pattern provides a mechanism to copy the original object to a new object and then modify it according to our needs
+
+![Prototype drawio](https://github.com/patil31051998/design-patterns/assets/145420889/4d902c40-1039-40ed-8904-28fb0ed68e74)
