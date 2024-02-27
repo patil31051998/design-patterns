@@ -14,3 +14,13 @@ Abstract Factory patterns work around a super-factory which creates other factor
 Singleton Pattern says that define a class that has only one instance and provides a global point of access to it.
 
 ![Singleton drawio](https://github.com/patil31051998/design-patterns/assets/145420889/a3492517-80bc-4f98-89be-b5de71b2173d)
+
+### Builder
+The Builder Design Pattern is a creational pattern used in software design to construct a complex object step by step
+There are three major issues with Factory and Abstract Factory design patterns when the Object contains a lot of attributes
+1. Too Many arguments to pass from client program to the Factory class
+2. Some parameters might be optional but in Factory pattern, we are forced to send all the parameters and optional parameters need to send as NULL.
+3. If the object is heavy and its creation is complex, then all that complexity will be part of Factory classes that is confusing.
+
+### Prototype
+Prototype design pattern is used when the Object creation is a costly affair and requires a lot of time and resources and you have a similar object already existing. Prototype pattern provides a mechanism to copy the original object to a new object and then modify it according to our needs
