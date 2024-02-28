@@ -37,5 +37,9 @@ Client -> Target
             |
           Adapter -> Adaptee
 
+![Adapter drawio](https://github.com/patil31051998/design-patterns/assets/145420889/ef47ec2a-abd1-4f0c-a93f-7f1b3937aca0)
+
 # Bridge
 The Bridge design pattern allows you to separate the abstraction from the implementation
+
+![Bridge drawio](https://github.com/patil31051998/design-patterns/assets/145420889/48e8bade-a496-420b-8276-10172ccd6895)
