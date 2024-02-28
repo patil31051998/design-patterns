@@ -28,3 +28,14 @@ There are three major issues with Factory and Abstract Factory design patterns w
 Prototype design pattern is used when the Object creation is a costly affair and requires a lot of time and resources and you have a similar object already existing. Prototype pattern provides a mechanism to copy the original object to a new object and then modify it according to our needs
 
 ![Prototype drawio](https://github.com/patil31051998/design-patterns/assets/145420889/4d902c40-1039-40ed-8904-28fb0ed68e74)
+
+## Structural design pattern
+### Adapter
+Adapter design pattern acts as a bridge between two incompatible interfaces, making them work together. This pattern involves a single class, known as the adapter, which is responsible for joining functionalities of independent or incompatible interfaces.
+
+Client -> Target
+            |
+          Adapter -> Adaptee
+
+# Bridge
+The Bridge design pattern allows you to separate the abstraction from the implementation
